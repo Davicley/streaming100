@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-image: url(imagem/davi.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.container_botao{
+    background-color: darkred;
+    border-radius: 60 Xpx;
+    padding: 2em;
+    color: white;
+    display: block;
+}
