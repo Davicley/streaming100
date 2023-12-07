@@ -1,0 +1,76 @@
+*{
+    margin: 3;
+    padding: 3;
+}
+.principal{
+    background-image: url(imagem/davi.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight:600;
+    font-style: italic;
+}
+
+.container_botao{
+    background-color: rgb(0, 0, 0);
+    border-radius: 60 Xpx;
+    padding: 1em;
+    color: white;
+    display: block;
+    border: 6px solid red;
+    text-decoration: none;
+}
+.botao_secundario{
+    background-color: black;
+    border: 6px solid red;
+}
+.container_botao{
+    margin: 3%;
+}
+.container_aviso{
+    font-size: 15px;
+    background-color: rgb(25, 0, 255);
+    border-radius: 10 Xpx;
+    border: 2px solid white;
+}
+.container_imagen{
+    margin: 16px 0 15px 20px;
+}
+.container_caixa{
+    margin: 15px;
+}
+.secundario_imagem{
+    width: 80%;
+} 
+.secundario_botao{
+    display: inline-block;
+    padding: 2em;
+    margin-top: 1em;
+}
+.descricao_titulo{
+    width: 26%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    width: 80%;
+    font-size: 220%;
+
+}
+.container_decricao{
+    padding: 2em;
+
+}
+.terciario_imagem{
+    font-size: 100%;
+    display: inline-block;
+    padding: 2em;
+    margin-top: 1em;    
+}
